@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/anim.js"></script>
+
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <nav class="menu">
+        <ul class="menu__items">
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flag-fill" viewBox="0 0 16 16">
+                <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+              </svg>
+              TOP
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#about" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              ABOUT
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#works" class="menu__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+              </svg>
+              WORKS
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- メイン -->
+    <main>
+      <div class="begin">
+        <!-- メイン画 -->
+        <div class="portfolio">
+          <div id="slick">
+            <div class="slick-outer">
+              <a href="#content01"><img src="image/top1.jpg" alt="アイキャッチ画像01"></a>
+              <div class="slick-content">
+                <h1>PORTFOLIO</h1>
+              </div>
+            </div>
+            <div class="slick-outer">
+              <a href="#content02"><img src="image/top2.jpg" alt="アイキャッチ画像02"></a>
+              <div class="slick-content">
+                <h1>PORTFOLIO</h1>
+              </div>
+            </div>
+            <div class="slick-outer">
+              <a href="#content03"><img src="image/top3.jpg" alt="アイキャッチ画像03"></a>
+              <div class="slick-content">
+                <h1>PORTFOLIO</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- ABOUT -->
+          <div class="about" id="about">
+            <h2>
+              <div>
+                <img src='image/person-circle.svg' alt='' style="width:24px; height:24px; vertical-align:middle;">
+                <span style="vertical-align:middle; display:inline-block;">
+                  ABOUT
+                </span>
+              </div>
+            </h2>
+            <div class="content">
+              <!-- プロフィール -->
+              <div class="profile">
+                <h3>プロフィール</h3>
+                <div class="profile-text">
+                  <p>
+                    1. 2021年4月末からブログラミングの勉強を開始。<br>
+                    2. progateでHTML,CSSの基礎を身につけた後に、paizaでPHPの基礎を学ぶ。<br>
+                    3. 本を見ながらWebアプリケーションを写経。<br>
+                    4. 実在するWebサイトや本を参考にしつつ、オリジナルのWebサイトやアプリを制作。現在、JavaScriptも勉強中。
+                  </p>
+                </div>
+              </div>
+
+              <!-- スキル -->
+              <div class="skill">
+                <h3>スキル</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <img src="image/html.png" alt='HTML5' style="width:40px; height:40px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      HTML5
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/css.png" alt='CSS3' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      CSS3
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/bootstrap.png" alt='Bootstrap' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      Bootstrap
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/javascript.png" alt='JavaScript' style="width:40px; height:40px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      JavaScript
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/php.png" alt='PHP' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      PHP
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/mysql.png" alt='MySQL' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      MySQL
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/github.png" alt='Github' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      Github
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/slack.png" alt='Slack' style="width:35px; height:35px; margin:auto 3px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      Slack
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 特技・趣味 -->
+              <div class="hobby">
+                <h3>特技・趣味</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <img src="image/picture.png" alt='' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      デジタルイラスト
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/basketball.png" alt='' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      バスケットボール
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    <img src="image/music.png" alt='' style="width:30px; height:30px; margin:auto 5px; vertical-align:middle;">
+                    <span class="item" style="vertical-align:middle">
+                      音楽鑑賞
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- WORKS -->
+          <div class="works" id="works">
+            <h2>
+              <div>
+                <img src='image/pencil-fill.svg' alt='' style="width:24px; height:24px; vertical-align:middle;">
+                <span style="vertical-align:middle;display:inline-block;">
+                  WORKS
+                </span>
+              </div>
+            </h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <!-- PORTFOLIO -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/work-port.png" class="card-img-top" alt="PORTFOLIO">
+                  <div class="card-body">
+                    <h5 class="card-title">PORTFOLIO</h5>
+                    <p class="card-text">自分自身のポートフォリオです。</p>
+                    <p class="card-text">HTML/CSS/bootstrap5/JavaScript</p>
+                    <a href="#" class="btn btn-primary">Check</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- White Book Cafe -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/work-cafe.png" class="card-img-top" alt="White Book Cafe">
+                  <div class="card-body">
+                    <h5 class="card-title">White Book Cafe</h5>
+                    <p class="card-text">ブックカフェのホームページです。</p>
+                    <p class="card-text">HTML/CSS/PHP/MySQL</p>
+                    <a href="https://silverbread.github.io/portfolio1-cafe/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sample保育園 -職員連絡サイト- -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/work-child.png" class="card-img-top" alt="Sample保育園 -職員連絡サイト-">
+                  <div class="card-body">
+                    <h5 class="card-title">Sample保育園 -職員連絡サイト-</h5>
+                    <p class="card-text">社内コミュニケーションツールです。</p>
+                    <p class="card-text">HTML/CSS/PHP/MySQL</p>
+                    <a href="https://github.com/SilverBread/portfolio2-childcare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- My Todo List -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/work-todo.png" class="card-img-top" alt="My Todo Lists">
+                  <div class="card-body">
+                    <h5 class="card-title">My Todo Lists</h5>
+                    <p class="card-text">タスク管理アプリです。</p>
+                    <p class="card-text">PHP/MySQL/CSS</p>
+                    <a href="https://github.com/SilverBread/portfolio3-ToDo" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li>
+              <a href="https://github.com/SilverBread" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              Github
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <p class="copyright">© 2022 PORTFOLIO All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
