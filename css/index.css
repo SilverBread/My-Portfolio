@@ -17,6 +17,7 @@ header {
   display: flex;
   max-width: 900px;
   margin: 0 auto;
+  padding: 0;
 }
 .menu__item {
   list-style: none;
@@ -45,10 +46,8 @@ header {
   color: #333;
   line-height: 68px;
 }
-
-.menu__link:hover {
-  color: gray;
-  text-decoration: underline;
+.menu__link:hover{
+  color: #696969;
 }
 .menu__link:hover::after {
   transform: scale(1, 1);
